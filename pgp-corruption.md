@@ -15,6 +15,14 @@ Running the steps below on a bad connection just re-corrupts the keyring again
 ## Step 2: Wipe the local GPG trust database
 
 ```bash
+sudo rm -f /var/lib/pacman/sync/*.sig
+sudo pacman -Syysudo rm -f /var/lib/pacman/sync/*.sig
+sudo pacman -Syy
+```
+
+or
+
+```bash
 sudo rm -rf /etc/pacman.d/gnupg
 ```
 
