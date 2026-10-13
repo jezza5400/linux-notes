@@ -16,8 +16,8 @@ Running the steps below on a bad connection just re-corrupts the keyring again
 
 ```bash
 sudo rm -f /var/lib/pacman/sync/*.sig
-sudo pacman -Syysudo rm -f /var/lib/pacman/sync/*.sig
 sudo pacman -Syy
+sudo pacman -Syu
 ```
 
 or
